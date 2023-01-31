@@ -2,7 +2,7 @@ FROM python:3.11-alpine3.17 as build
 
 WORKDIR /app
 
-ENV TZ="America/Los_Angeles"
+ENV TZ="Asia/shanghai"
 
 RUN set -xe \
   && apk update \
